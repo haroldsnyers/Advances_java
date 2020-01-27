@@ -10,8 +10,17 @@ public class MyRunnable implements Runnable {
   public void run() {
     String name = Thread.currentThread().getName();
     for (int i = 0; i < 10_000_000; i += 1) {
-      if (i % 100_000 == 0) {
-        System.out.println(name + ": i=" + i);
+//      if (i % 100_000 == 0) {
+//        System.out.println(name + ": i=" + i);
+//      }
+      System.out.println(("Hello World!"));
+      try {
+        Thread.sleep(1000);
+      } catch (InterruptedException e) {
+        e.printStackTrace();
+        System.out.println(e);
+        Thread.currentThread().interrupt(); // very important
+        break;
       }
     }
   }

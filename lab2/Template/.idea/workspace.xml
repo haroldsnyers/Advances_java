@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce9912cb-93ec-4aed-a673-b74eb23b88e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs.Solution/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs.Solution/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs.Solution/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs.Solution/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs.Solution/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs/src/annotations/definition/TestSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs/src/annotations/definition/TestSpecs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab1/AdvancedConstructs/src/generics/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce9912cb-93ec-4aed-a673-b74eb23b88e6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lambdas/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
+            <state relative-caret-position="1853">
               <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,6 +82,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,8 +106,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,17 +163,18 @@
       <workItem from="1579533770999" duration="2413000" />
       <workItem from="1579994100372" duration="833000" />
       <workItem from="1580006356858" duration="828000" />
+      <workItem from="1580129753929" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9924000" />
+    <option name="totallyTimeSpent" value="10142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="0" width="936" height="1086" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26765376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2733485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -233,6 +221,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/StringTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lambdas/AnyTypeTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -244,23 +249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/StringTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
