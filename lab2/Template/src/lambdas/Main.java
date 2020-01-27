@@ -1,5 +1,8 @@
 package lambdas;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * Demonstrates the use of anonymous classes, lambda expressions and method
  * references.
@@ -47,7 +50,7 @@ public class Main {
   public static void main(String[] args) {
 
     // the strings we want to test
-    String[] strings = {"123", "abc", "you"};
+    String[] strings = {"zeee", "abc", "you"};
 
     // Test #1: do all string start with "A"?
     // We use an instance of the StringStartsWithA class as the tester object
@@ -99,10 +102,33 @@ public class Main {
 
     boolean ok14 = checkStrings(strings, string -> string.startsWith("A"));
 
+
+    /* functional tester interface for any type of items */
     Integer[] integers = {1, 4, 6};
     boolean ok15 = checkObjects(integers, integer -> integer <= 10);
     System.out.println("all integers are smaller than 10: " + ok15);
 
+
+    /* foreach method on array */
+    Integer sumFor = 0;
+    for (Integer integer: integers){
+      sumFor = sumFor+integer;
+    }
+
+    // the following doesn't work
+    // -> see https://stackoverflow.com/questions/52795031/how-to-find-sum-with-foreach-and-lambda-expression-in-java
+
+//    Integer sumForeach = 0;
+//    Arrays.asList(integers).forEach(i-> sumForeach += i);
+
+    Arrays.asList(integers).forEach(i-> {if(i%2 == 0) {
+      System.out.println(i);}
+    });
+
+
+    /* functional comparator interface */
+    Arrays.sort(strings, Comparator.comparing(String::length));
+    System.out.println(Arrays.toString(strings));
   }
 
 
