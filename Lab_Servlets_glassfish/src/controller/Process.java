@@ -10,26 +10,35 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "Process", urlPatterns = {"/process"})
 public class Process extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
 
-        String n=request.getParameter("login");
-        out.println("<!DOCTYPE html>" +
-                "<html>" +
-                "<head>" +
-                "<title>Home</title>" +
-                "</head>" +
-                "<body>" +
-                "<form action='login' method='POST' >\n"
-                + "Login: <input type='text' name='login' />\n"
-                + "Password: <input type='password' name='password' />\n"
-                + "<input type='submit' value='Log in' />\n"
-                + "</form>"
-                + "</body>"
-        );
-        out.print("Welcome "+n);
+    private String user = "";
 
-        out.close();
+    @Override
+    protected void doPost(HttpServletRequest request,
+                          HttpServletResponse response)
+            throws ServletException, IOException {
+        try (PrintWriter out = response.getWriter()) {
+            user = request.getParameter("login");
+            out.println("<h1>You are connected as " +
+                    request.getParameter("login") +
+                    "</h1>");
+
+            out.println("<a href='process'>continue</a> "
+                    + "<a href='logout'>logout</a>");
+
+        }
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try (PrintWriter out = response.getWriter()) {
+            out.println("<h1>You are connected as " +
+                    request.getParameter("login") +
+                    "</h1>");
+
+            out.println("<a href='process'>continue</a> "
+                    + "<a href='logout'>logout</a>");
+
+        }
     }
 }
