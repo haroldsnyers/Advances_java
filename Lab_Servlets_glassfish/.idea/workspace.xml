@@ -7,35 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d7761e-cccb-4235-a3aa-68f9b5b8ce43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/artifacts/JavaServer_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/JavaServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/src/controller/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/src/controller/home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/login1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/logout1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/process.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaServer/web/process1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab_Servlets_glassfish_war_exploded/WEB-INF/classes/view/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab_Servlets_glassfish_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab_Servlets_glassfish_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_Servlets_glassfish/view/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaServer/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,7 +175,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583361621321" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583365156881" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -336,7 +308,7 @@
       <window_info id="Web" order="8" sideWeight="0.5007825" side_tool="true" weight="0.23922902" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33125648" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33125648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
