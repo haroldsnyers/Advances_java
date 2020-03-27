@@ -2,7 +2,6 @@ import org.hibernate.*;
 import org.hibernate.query.Query;
 import org.hibernate.cfg.Configuration;
 
-import javax.persistence.metamodel.EntityType;
 
 import java.util.Iterator;
 import java.util.List;
